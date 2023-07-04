@@ -1,0 +1,46 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          default-label: master
+          uri: git@github.com:WaldirSanchez07/config-data-bank.git
+          ignoreLocalSshSettings: true
+          hostKey: AAAAB3NzaC1yc2EAAAADAQABAAABAQCiSH4qEbic7NAQTMzYTDmpDfWWUCLkNLxEF9FY81GLovZU1BrPyO8zpdgwe2ws//BVU5yeg/n2HpHrjU1pjFbL1GB/m4DFLpq/CAJF/HAtn9ennmY9fIk/7/I240t5tiEuKcyfPZJRIpJXppDz6EJ2nwaQPJFqYhWqbds64d4JzwNXN+UBWKlksc3xK37ZHqJWDNaGN4f9XKut1g68mDhSMnocceThr4vz8i5r4UY6Hog8FNRXMyEJJfonVpMH7jUPKQtjBS5Gcp9e2dOQf0OcMe6Vt4ccOt0iflsvDQhSd6A49zFryBUiG5q+UqgE88O8L4R4v+VGCTiJxYmgqbYR waldir@DESKTOP-P4FK9HE
+          strictHostKeyChecking: false
+          hostKeyAlgorithm: ssh-rsa
+          search-paths: dev
+          privateKey: |
+            -----BEGIN RSA PRIVATE KEY-----
+            MIIEpQIBAAKCAQEAokh+KhG4nOzQEEzM2Ew5qQ31llAi5DS8RBfRWPNRi6L2VNQa
+            z8jvM6XYMHtsLP/wVVOcnoP59h6R641NaYxWy9Rgf5uAxS6avwgCRfxwLZ/Xp55m
+            PXyJP+/yNuNLebYhLinMnz2SUSKSV6aQ8+hCdp8GkDyRamIVqm3bOuHeCc8DVzfl
+            AVipZLHN8St+2R6iVgzWhjeH/VyrrdYOvJg4UjJ6HHHk4a+L8/Iua+FGOh6IPBTU
+            VzMhCSX6J1aTB+41DykLYwUuRnKfXtnTkH9DnDHulbeHHDrdIn5bLw0IUnegOPcx
+            a8gVIhuavlKoBPPDvC+EeL/lRgk4icWJoKm2EQIDAQABAoIBAQCNW/ZCMQON9h5b
+            RHrfIq7LWrSFRbLO9DzWV6TtBa4Po1lNlSDxxEbQx3Lk8G3PWPYBbX6s+as/v2s+
+            MuyutydYD9wq68qkeC8lnhVU30rcAzM3+Bt5DcUEY7+qHh29nG+UpaZvQ5PzhtjQ
+            7u+u9q8GYwm1lHzanSvgNCdWSC9AfKaBg0mKu9jlQ0JqZB1edZ//AsS7ik+U1u9b
+            ZYxgDhf+4IHvheLa5rgZCvksIMHImP8iTTI+Yep9n32pqWcWFQOXKtRa/gJR3kA4
+            rY6nVzS3kcWz58miCE0N424cNPoDsEJ12r1WLHIoHoDlKF/6QJ/O9UNnc8VzUWLF
+            JDO/U5kdAoGBAM2lDYgtlr43CdJCjWFnijAjnlu58oRzPuFm7Y9458BdIv654trb
+            rnVkLDksFW9Vrp85ywcpCcC2rhINJbQyEcYk5drWs5oH4fEbNTZaStFcEy5FhqlA
+            P6qrP5hY3af6QKTBFKVZGeYROrQXOMg7+Em46jfsUSu2dDNZzUYVba6nAoGBAMoF
+            TEOpJSe+cn/UWMvmzBTv2TaxNMVWAWl+WDVojIIR1shCuZOJvCQHfz0CAr8h6h/R
+            +f61LmPvI63/WgCZwssDuRBVRpT8IF+YUpffDS9s2YLY5SZfYghaI6vB1aSRJ//S
+            dtA/22hJ4rHWUgbpuqVGhvQIWB6X9/jm/I91KASHAoGBALI1G2HsZ9qU5YzxIYXM
+            bUNESqIgpNpE6LP6N1oCo4re60mlGsMgZrHSSkSNQFIIBVh0g83DsXDwni6EeC0M
+            yrxUE2CueFu+Av2m31knq/h7+x85HvYi+ElVN7o1IHjF9CkSLWsQqNHoEmAoU4up
+            9IMmnMozny/rYA1z/+CBB1i3AoGBAJZ+9993xFwlPjsIP9Y2a1Y1j4V04bEYbxjd
+            rGytI+9Jxs2NF55Xfzb/9sPGGbG1XCq0TB55bsO3xMa8cZn88eY3Mch/HoOih6Nv
+            YCgPXE02M5uMZLj/WZKLRAOR9MwR7tBfQ2/EAnlggWamGJlZyVeSgLqO9MZlw69C
+            tGdSiatFAoGAFQq11rQSWbQzUdrJdzW2dxy17FqKKCKk3Kyp0TSFwVK9gCv7D3Dd
+            C3oFmfAqkwqDZAwO45Va2ydYUEiCO3DwSPMRtklgys+0nHnt94sjgJGdjapFHyDX
+            hC5kHuk+037MAf1sK642+vlee3Rp63TJVtBCkf1QFRkgSBmrTtKUTd0=
+            -----END RSA PRIVATE KEY-----
+
